@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>QUBIT a quantum internet</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="https://qubitechs.com/favicon.png" />
       </Head>
 
       <main className={styles.main}>
