@@ -12,7 +12,7 @@ export default function Home() {
       <main className={styles.main}>
         <img src="logo_white.svg" alt="QUBIT a quantum internet" style={{ width: '170px', marginBottom: '25px'}} />
         <h1 className={styles.title}>
-          Welcome to <a href="https://qubitechs.com">QUBITECHS!</a>
+          Welcome to <a href="https://qubitechs.com">QubiTechs</a>
         </h1>
 
         <h2 className={styles.titletwo}>QUANTUM INTERNET</h2>
