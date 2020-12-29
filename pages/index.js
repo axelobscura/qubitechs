@@ -58,7 +58,7 @@ export default function Home() {
         <h2 className={styles.titletwo}>QUANTUM INTERNET</h2>
 
         <p className={styles.description}>
-          <small><b>Quantum computing differs from ordinary computing in many ways</b><br />First, ordinary computers are built around the concept of the bit, which is effectively a switch that can be flipped on or off -- what computer professionals call a 1 or 0.<br /><b>In contrast, QUANTUM COMPUTERS use the QUBIT, short for "quantum bit"</b></small>
+          <small><b>Quantum computing differs from ordinary computing in many ways</b><br />First, ordinary computers are built around the concept of the bit, which is effectively a switch that can be flipped on or off -- what computer professionals call a 1 or 0.<br /><b>In contrast, QUANTUM COMPUTERS use the QUBIT, short for "quantum bit"</b><br/><br/><b>Qubits</b> are somewhat like ordinary bits<br/>in that they are measured as 0s and 1s, but in between measurements, they are an indeterminate mix of 0s and 1s.</small>
         </p>
 
       </main>
