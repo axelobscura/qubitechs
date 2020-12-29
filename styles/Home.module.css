@@ -123,6 +123,17 @@
   height: 1em;
 }
 
+.elLogo {
+  width: 170px;
+  margin-bottom: 25px;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+.elLogo:hover { 
+  transform: scale(1.1); 
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

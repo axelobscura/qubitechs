@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Particles from 'react-particles-js';
 import styles from '../styles/Home.module.css'
 
@@ -50,7 +51,10 @@ export default function Home() {
       />
       <main className={styles.main}>
 
-        <img src="logo_white.svg" alt="QUBIT a quantum internet" style={{ width: '170px', marginBottom: '25px' }} />
+        <Link href="/qubit">
+          <img src="logo_white.svg" className={styles.elLogo} alt="QUBIT a quantum internet" />
+        </Link>
+
         <h1 className={styles.title}>
           Welcome to <a href="https://qubitechs.com">QubiTechs</a>
         </h1>
