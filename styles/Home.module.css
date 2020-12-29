@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #f5e35d;
 }
 
 .main {
@@ -29,15 +30,21 @@
   margin-left: 0.5rem;
 }
 
-.footer a {
+.footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 100;
 }
 
 .title a {
-  color: #0070f3;
+  color: #999a9c;
   text-decoration: none;
+}
+
+.titletwo {
+  color: #999a9c;
+  font-weight: 100;
 }
 
 .title a:hover,
@@ -59,7 +66,7 @@
 
 .description {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .code {

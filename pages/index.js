@@ -14,43 +14,16 @@ export default function Home() {
           Welcome to <a href="https://qubitechs.com">QUBITECHS!</a>
         </h1>
 
+        <h2 className={styles.titletwo}>QUANTUM INTERNET</h2>
+
         <p className={styles.description}>
-          QUANTUM INTERNET
+          <small><b>Quantum computing differs from ordinary computing in many ways.</b><br/>First, ordinary computers are built around the concept of the bit, which is effectively a switch that can be flipped on or off -- what computer professionals call a 1 or 0.<br/><b>In contrast, QUANTUM COMPUTERS use the QUBIT, short for "quantum bit."</b></small>
         </p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
       </main>
 
       <footer className={styles.footer}>
-        <b>QUBITECHS</b>
+        <b>@ 2020 - 2021. QUBITECHS - All Rights Reserved.</b>
       </footer>
     </div>
   )
