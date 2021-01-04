@@ -14,7 +14,7 @@ export default function Qubit() {
         <Link href="/">
           <img src="logo_white.svg" className={styles.elLogo} alt="QUBIT a quantum internet" />
         </Link>
-        <h2>SOLUCIONES TECNOLÓGICAS Y DINÁMICAS</h2>
+        <h2 style={{ fontWeight: '100' }}>SOLUCIONES TECNOLÓGICAS Y DINÁMICAS</h2>
       </main>
 
       <footer className={styles.footer}>
